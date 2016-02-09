@@ -1,18 +1,13 @@
-# $Id: PKGBUILD 106145 2014-02-24 08:39:29Z spupykin $
-# Maintainer: Sergej Pupykin <pupykin.s+arch@gmail.com>
-# Maintainer:  TDY <tdy@gmx.com>
-# Contributor: Grigorios Bouzakis <grbzks[at]gmail[dot]com>
-
 pkgname=tmux
 pkgver=1.9_a
 pkgrel=1
 pkgdesc='A terminal multiplexer'
 url='http://tmux.sourceforge.net/'
-arch=('i686' 'x86_64')
+arch=('x86_64')
 license=('BSD')
 depends=('ncurses' 'libevent')
-source=(http://downloads.sourceforge.net/tmux/tmux-${pkgver/_/}.tar.gz
-		LICENSE)
+source=("http://downloads.sourceforge.net/tmux/tmux-${pkgver/_/}.tar.gz"
+	"LICENSE")
 md5sums=('b07601711f96f1d260b390513b509a2d'
          '71601bc37fa44e4395580b321963018e')
 
