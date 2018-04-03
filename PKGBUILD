@@ -1,5 +1,5 @@
 pkgname=tmux
-pkgver=2.5
+pkgver=2.6
 pkgrel=1
 pkgdesc='A terminal multiplexer'
 url='http://tmux.github.io/'
@@ -7,7 +7,7 @@ arch=('x86_64')
 license=('BSD/ISC')
 depends=('ncurses' 'libevent')
 source=("https://github.com/$pkgname/$pkgname/releases/download/$pkgver/$pkgname-$pkgver.tar.gz" "tmux"  "tmux.vim")
-sha256sums=('ae135ec37c1bf6b7750a84e3a35e93d91033a806943e034521c8af51b12d95df'
+sha256sums=('b17cd170a94d7b58c0698752e1f4f263ab6dc47425230df7e53a6435cc7cd7e8'
 	    'ddc39f954970e9c6a5d882a8f9ffe299e538573fa38a0b85ba564e02be77537a'
 	    '4355342d73afcb7776b60ba5dbd7e9abb267d370a5c07e58c25cb4731f7d00c7')
 
